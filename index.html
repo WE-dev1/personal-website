@@ -5,49 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal page under construction</title>
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body> 
     <main>
-        <nav id="nav">
-            <a href="#contact"><button>CONTACT</button></a>
-            <a href="#about"><button>ABOUT ME</button></a>
-            <a href="#skills"><button>SKILLS</button></a>
-        </nav>
-        <h1>Enrico Weißenrieder</h1>
-        <article>
-            <figure>
+        <header>
+            <nav id="nav">
+                <a href="#contact"><button>CONTACT</button></a>
+                <a href="#about"><button>ABOUT ME</button></a>
+                <a href="#skills"><button>SKILLS</button></a>
+            </nav>
+            <h1>Enrico Weißenrieder</h1>
+        </header>
+    
+        <section>
                 <img src="assets/profilepic1.jpg" alt="me" width="60%">
                     <figcaption>me with cute things</figcaption>
-            </figure>
-            <i>placeholder tag</i>
-        </article>
-        <hr>
-        <article id="contact">
-            <h2>Contact</h2>
-            <i>mail:mail phone:number</i>
-            <br/>
-            <br/>
-            <a href="https://github.com/WE-dev1"><img width="80" src="assets/githubicon.png" alt="github"></a>
-            <img width="80" src="assets/codepenicon.png" alt="codepen">    <!-- no profile yet -->
-            <img width="80" src="assets/linkedinicon.png" alt="linkedin">  <!-- no profile yet -->
-        </article>
-        <hr>
-        <article id="about">
-            <h2>About Me</h2>
-            Hi, I'm Enrico. I'm currently learning html.
-        </article>
-        <hr>
-        <article id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>🤷🏻</li>
-                <li>still acquiring some</li>
-            </ul>
-        </article>
-        <br/>
-        <br/>
-        <br/>
+        </section>      
+
+        <figure id="contact" style="padding-top: 0px;">
+            <!-- <h2>Contact</h2> -->
+            <!-- <i>mail:mail phone:number</i> -->
+            <a href="https://github.com/WE-dev1"><img width="80" src="assets/githubicon.png" alt="contactgithub"></a>
+            <a href="#top"><img width="80" src="assets/codepenicon.png" alt="contactcodepen"></a>    <!-- no profile yet -->
+            <a href="#top"><img width="80" src="assets/linkedinicon.png" alt="contactlinkedin"></a>  <!-- no profile yet -->
+        </figure>
+
+        <section>
+            <article id="about">
+                <h2>About Me</h2>
+                Hi, I'm Enrico. I'm currently learning html.
+            </article>
+
+            <article id="skills">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li>🤷🏻</li>
+                    <li>still acquiring some</li>
+                </ul>
+            </article>
+        </section>
+
     </main>
-    <footer>Enrc</footer>
+    <footer>wichtig</footer>
 </body>
 </html>
