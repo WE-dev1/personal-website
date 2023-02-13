@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(181, 181, 181, 0.558);
+
+}
+
+button {
+    margin: 10px;
+}
+
+nav {
+    margin-top: 17px;
+}
+
+h1, h2{
+    font-style: oblique;
+}
+
+h1{
+    font-weight: bold;
+    width: 320px;
+    
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+section {
+    margin-top: 10px;
+    border-radius: 12px;
+    padding-left: 2%;
+    box-shadow:  0px 0px 2px 2px lightsteelblue;
+    background-color: lightsteelblue;
+    max-width: 80%; 
+    min-width: 585px;
+}
+figure{
+    margin-left: 0px;
+    width: 560px;
+    
+    background-color: ghostwhite;
+    border-radius: 12px;
+}
+
+figcaption{
+    font-family: Verdana;
+    font-style: italic;
+    color: rgb(43, 22, 91);
+    text-align: center;
+}
+
+article {
+}
+
+a>img:hover{
+    filter: drop-shadow(0px 0px 3px #a40535b4);
+}
+a>img:active{
+    filter: drop-shadow(0px 0px 3px #0bc844b4);
+}
+
+.skills{
+    list-style: none;
+    padding-left: 5px;
+}
+.skills > li::before{
+    content: "🛠️";
+    margin: 10px;
+}
+
+ul[id*="contact"]{
+    list-style: none;
+    width: 10%;
+    height: 25rem;
+
+}
+
+img[alt^="contact"]{
+    width: 130%;
+    min-width: 70px;
+    max-width: 130px;
+    }
+
+article:nth-last-child(2){
+    color: whitesmoke;
+}
+
+footer{
+    font-size: smaller;
+}
+
+
+
+
+.buttonnavbar {
+  background-color: gold;
+  border-radius: 100px;
+  box-shadow: rgba(127, 44, 187, 0.2) 0 -25px 18px -14px inset,rgba(182, 187, 44, 0.15) 0 1px 2px,rgba(187, 163, 44, 0.15) 0 2px 4px,rgba(170, 187, 44, 0.15) 0 4px 8px,rgba(187, 125, 44, 0.15) 0 8px 16px,rgba(187, 180, 44, 0.15) 0 16px 32px;
+  color: rgb(66, 17, 109);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonnavbar {
+  box-shadow: rgb(155, 155, 155);
+  transform: scale(0.9);
+}
