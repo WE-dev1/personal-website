@@ -1,0 +1,22 @@
+body {
+    position: relative;
+
+    
+}
+
+ul[id*=contact] {
+    position: fixed;
+    top: 90px;
+    right: 90px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
